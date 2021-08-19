@@ -29,7 +29,8 @@ print(value)
 if(value == "C"):
     print("not worth")
 else:
-    requests.post("https://maker.ifttt.com/trigger/jack/with/key/lmRrnJJWM7oHvMkAuqiYQSFUzA9vGGXET77e6igrvy4")
+    #Change to IFTTT or other device to notify you
+    requests.post("YOUR URL")
 
 
 sleep(5)
